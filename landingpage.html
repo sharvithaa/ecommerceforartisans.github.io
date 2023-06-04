@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>E-Commerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>    
+    <script src="main.js"></script>
+</head>
+    <body>
+        <div class="bg-image">
+            <div class="text">
+               <p>WELCOME<br>TO <br><span style="color:darkorange">IN</span><span style="color: darkgray;">DI</span><span style="color: green;">AN</span><br>CRAFTS WORLD</p> 
+            </div>
+        </div>
+
+        <nav class="navbar navbar-custom navbar-fixed-top">
+            <div class="container-fluid" >
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand"><span style="font-family: brush script mt;color:black;font-size: 30px;">Crafterina</span></a>
+                </div>
+            <div class="navbar-right">
+                <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="nav navbar-nav">
+                        <li  class="nav-item" ><a class="color-me" class="nav-link-active" href="landingpage.html">HOME</a></li>
+                        <li class="dropdown">
+                            <a class="color-me" class="dropdown-toggle" data-toggle="dropdown">PRODUCT</a>
+                            <ul class="dropdown-menu">
+                                <li ><a class="color-me" href="jewllary.html">JEWELLARY</a></li>
+                                <li><a class="color-me" href="pottery.html">POTTERY AND GLASS ARTS</a></li>
+                                <li><a class="color-me" href="textile.html">TEXTILE</a></li>
+                                <li><a class="color-me" href="decoration.html">DECORATIONS</a></li>
+                                <li><a class="color-me" href="painting.html">PAINTING</a></li>
+                            </ul>
+                        </li>
+                        <li ><a class="color-me" href="#about" >ABOUT</a></li>
+                        <li ><a class="color-me" href="#contact">CONTACT</a></li>
+                        <li ><a class="color-me" href="login.html">ACCOUNT</a></li>
+                        
+                       
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row" style="padding-top: 60px;">
+        <div class="col-md-4" style="padding-left: 70px;">
+            <img class="img-fluid" src="images/download.png" width="70px" height="70px"><b>WORLDWIDE SHIPPING</b>
+        </div>
+        <div class="col-md-4" style="padding-left: 70px;">
+            <img class="img-fluid" src="images/download (1).png" width="70px" height="70px"><b>BEST SELLERS</b>
+        </div>
+        <div class="col-md-4" style="padding-left: 70px;">
+            <img class="img-fluid" src="images/cashback-inr-icon.svg" width="70px" height="70px"><b>30 DAYS MONEYBACK</b>
+        </div>
+    </div>
+            
+    <div class="table-responsive">
+        <p style="font-size: 20px;text-align: center;color: black;"><b>FEATURED PRODUCTS</b></p>
+        <table class="table table-borderless" >
+            <tr><td class="polaroid"><img class="img-fluid" src="images/1.jpg" width="300px" height="200px"><p class="t"><b><a style="text-decoration: none;color:black;" href="textile.html">TEXTILE</a></b></p></td>
+            <td class="polaroid"><img class="img-fluid" src="images/2.jpg" width="300px" height="200px"><p class="t"><b><a style="text-decoration: none;color:black;" href="pottery.html">POTTERY</a></b></p></td>
+            <td class="polaroid"><img class="img-fluid" src="images/3.jpg" width="300px" height="200px"><p class="t"><b><a style="text-decoration: none;color:black;" href="decoration.html">DECORATIONS</a></b></p></td>
+            <td class="polaroid"><img class="img-fluid" src="images/4.jpg" width="300px" height="200px"><p class="t"><b><a style="text-decoration: none;color:black;" href="painting.html">PAINTING</a></b></p></td>
+            <td class="polaroid"><img class="img-fluid" src="images/j5.jpg" width="300px" height="200px"><p class="t"><b><a style="text-decoration: none;color: black;" href="jewllary.html">JEWELLARY</a></b></p></td>
+            </tr>
+        </table>
+    </div>
+
+        <div id="about" class="container-fluid">
+            <h3 style="text-align:center;padding-top: 90px;"><b>ABOUT US</b></h3>
+            <p class="card-text" style="padding-left: 20px;font-size: 18px;font-family: 'segona';text-align: justify;"><span style="font-family: brush script mt;color:black;font-size: 30px;">Crafterina</span> connecting you to India's most beautiful products.We discover the best designs from artisans and craftsmen from all over India, and deliver them at exceptional value to our members. focuses on products with unique,high quality craftsmanship; unmistakably local designs that feel at home anywhere in the world. Our products include home decor, accessories, jewelry, apparel, gifts, vintage items and more.We strives to bring the traditions of India to customers all around the world with its unique creations and products. It not only helps its artisans become wage earners, but also spreads awareness about the traditional crafts of the region, thus helping preserve a rich part of India’s national cultural heritage.Our product are made with</p>        </div>
+        </div>
+
+        <div id="contact">
+            <p style="font-size: 20px;color:black;text-align: center;padding-top: 20px;"><b>Have something in mind.Let'us know.</b></p>
+            <form  onsubmit="submitfunction()"> 
+                <input type="text" class="form-control" name="name" placeholder="Name" id="name" onfocus="focusfunction1()" onblur="blurfunction1()">
+                <input type="email" class="form-control" name="email" placeholder="Email" id="email" onfocus="focusfunction2()" onblur="blurfunction2()">
+                <textarea name="comments"  class="form-control" rows="10" cols="40" id="comment" onfocus="focusfunction3()" onblur="blurfunction3()">Give your feedback</textarea><br>
+                <input type="submit" class="form-control" name="submit" class="submit" id="submit">
+            </form>
+         </div>
+
+        <div class="reach">
+                <table>
+                    <tr><td><b>REACH US</b></td><br>
+                    <td style="align-items: center;" ><img src="images/facebook.png" width="30px" height="30px"></td>
+                    <td><img src="images/images.jfif" width="30px" height="30px"></td>
+                    <td><img src="images/gmail-logo-png-5a3aaffc62d223.8975386515137955804048.jpg" width="30px" height="30px"></td></tr>
+
+                </table>
+        </div>
+    </body>
+</html>

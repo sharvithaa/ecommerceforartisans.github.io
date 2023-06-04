@@ -1,0 +1,125 @@
+.bg-image{
+    width: 100%; 
+    height: 600px; 
+    background-image:   linear-gradient(  rgba(37, 36, 36, 0.4), rgba(220, 214, 214, 0.4)), url(images/handicrafts.jpg);
+    background-size: 100% 100%;  
+    background-repeat: no-repeat;
+}
+.navbar-custom{
+    background:linear-gradient(to right, #ff7e5f, #feb47b) ;
+
+}
+.color-me{
+    color:black!important;
+    font-weight: bold !important;
+}
+.text{
+    text-align: left;
+    font-size: 52px;
+    color: rgb(27, 27, 27);
+    padding-top: 170px;
+    padding-left:10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.table-responsive{
+    outline: none;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+.table-responsive .img{
+    display: flex;
+}
+.logo2{
+    display: flex;
+    flex-direction: row;
+    padding: 250px;
+    padding-bottom: 150px;
+    gap: 10px;
+}
+.container{
+    text-align: center;
+    padding: 20px 0px; 
+    color: black;
+}
+.image{
+    float: left;
+    padding: 10px;
+}
+.box{
+    text-align: center;
+}
+.polaroid{
+    max-width:max-content;
+    background:  linear-gradient(to right, #ff7e5f, #feb47b);     
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 15px;
+}
+.t{
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+table{
+    padding-top: 20px;
+}
+#contact{
+    background-image: linear-gradient(  rgba(133, 132, 132, 0.4), rgba(139, 136, 136, 0.4)), url(images/Indian-Handicrafts-GI-TAGS.jpg);
+    background-repeat: no-repeat;
+    padding:0px;
+    margin: 90px 0px;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    position: relative;
+    background-size: 1300px 700px;
+}
+
+.reach{
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+    padding-top: 1px;
+    display: flex;
+    padding-left: 520px;
+    color:black;
+}
+.color-me{
+    color:  #f09819;
+}
+form{
+    width: 400px;
+    margin: 40px auto;
+}
+input,textarea{
+    background-color:transparent;
+    border: 1px solid #ff7e5f;
+    box-shadow: inset 0 1px 5px #feb47b;
+    width: 90%;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+textarea{
+    font-family: inherit;
+    font-weight: bold;
+}
+.submit{
+    background-color: transparent;
+    text-transform: uppercase;
+    width: 80%;
+    font-size: 14px;
+    color:black !important;
+    border: 1px solid  #ff7e5f;
+}
+.form-control{
+    background-color: transparent;
+    color: black !important;
+    border: 1px solid  #ff7e5f;
+    box-shadow: inset 0 1px 2px ;
+}
+input[type=email]{
+    color: black !important;
+}

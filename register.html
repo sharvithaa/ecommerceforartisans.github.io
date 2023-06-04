@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>E-Commerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+    <script src="form.js"></script>
+    <script src="server.js"></script>
+</head>
+    <body>
+        <nav class="navbar navbar-custom navbar-fixed-top">
+            <div class="container-fluid" >
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand"><span style="font-family: brush script mt;color:black;font-size: 30px;">Crafterina</span></a>
+                </div>
+            <div class="navbar-right">
+                <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="nav navbar-nav">
+                        <li  class="nav-item" ><a class="color-me" class="nav-link-active" href="landingpage.html">HOME</a></li>
+                        <li class="dropdown">
+                            <a class="color-me" class="dropdown-toggle" data-toggle="dropdown">PRODUCT</a>
+                            <ul class="dropdown-menu">
+                                <li ><a class="color-me" href="jewllary.html">JEWELLARY</a></li>
+                                <li><a class="color-me" href="pottery.html">POTTERY AND GLASS ARTS</a></li>
+                                <li><a class="color-me" href="textile.html">TEXTILE</a></li>
+                                <li><a class="color-me" href="decoration.html">DECORATIONS</a></li>
+                                <li><a class="color-me" href="painting.html">PAINTING</a></li>
+                            </ul>
+                        </li>
+                        <li ><a class="color-me" href="#about" >ABOUT</a></li>
+                        <li ><a class="color-me" href="#contact">CONTACT</a></li>
+                        <li ><a class="color-me" href="login.html">ACCOUNT</a></li>
+                        
+                       
+                </div>
+            </div>
+        </div>
+    </nav>
+     
+    <div class="login">
+        <div class="form" >
+            <form id="register" name="myform" method="post" onsubmit="return validateform()">
+                <h2>Sign Up</h2>
+                <input type="text" placeholder="Name" name="name">
+                <input type="email" placeholder="Email" name="email">
+                <input type="tel" placeholder="MoblieNumber" name="mob">
+                <input type="password" placeholder="Password" name="pass">
+                <input type="password" placeholder="Confirm Password" name="conpass">
+                <label>By signing up,you agree to our Terms,Data Policy and Cookies Policy<input type="checkbox" name="terms" value="terms"></label>
+                <button formaction="http://localhost:5050/register">SUBMIT</button>
+                <a href="login.html">Registered?Login Here</a>
+            </form>
+        </div>
+    </div>
+    </body>
+</html>
